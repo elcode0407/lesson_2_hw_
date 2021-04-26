@@ -6,6 +6,7 @@ public class ExceptionsHW {
                 {"1", "2", "2", "2"},
                 {"2", "2", "4", "5"}
         };
+
         try {
             exc(b);
         } catch (MyArraySizeException e) {
