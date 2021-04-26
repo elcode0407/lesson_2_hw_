@@ -13,6 +13,7 @@ public class ExceptionsHW {
             throw new MyArraySizeException("Массив привышает четыре!!!");
         }
     }
+
     static class MyArraySizeException extends Exception {
         public MyArraySizeException(String message) {
             super(message);
