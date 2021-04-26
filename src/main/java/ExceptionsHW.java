@@ -6,12 +6,14 @@ public class ExceptionsHW {
                 {"1", "2", "2", "2"},
                 {"2", "2", "4", "5"}
         };
+
         try {
             exc(b);
         } catch (MyArraySizeException e) {
             throw new MyArraySizeException("Массив привышает четыре!!!");
         }
     }
+
     static class MyArraySizeException extends Exception {
         public MyArraySizeException(String message) {
             super(message);
